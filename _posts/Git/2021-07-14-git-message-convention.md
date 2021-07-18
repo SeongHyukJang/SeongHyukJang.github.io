@@ -20,8 +20,8 @@ Git을 이용하여 Version Control을 할 때는 여럿이서 작업을 한다.
 이 글에서는 많은 사람들이 사용하는 Commit Message Convention을 소개한다.
 
 참고 자료<br>
-https://udacity.github.io/git-styleguide<br>
-http://karma-runner.github.io/0.10/dev/git-commit-msg.html<br>
+<https://udacity.github.io/git-styleguide> <br>
+<http://karma-runner.github.io/0.10/dev/git-commit-msg.html> <br>
 
 
 ## 메시지 구조
