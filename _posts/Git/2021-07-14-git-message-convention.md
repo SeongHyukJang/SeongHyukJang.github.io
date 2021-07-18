@@ -1,5 +1,5 @@
 ---
-title:  "[Git] 깃 커밋 메시지 작성 규칙 (Git Commit Message Convention)"
+title:  "[Git] Commit Message 작성 규칙"
 
 categories:
   - Git
