@@ -103,7 +103,7 @@ analytics:
 author:
   name             : "장성혁"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "개발자"
+  bio              : "Programmer"
   location         : "Seoul, Korea"
   email            : "seonghyuk578@gmail.com"
   links:
@@ -283,7 +283,9 @@ defaults:
     values:
       layout: single
       author_profile: true
-      read_time: false
-      comments: true # true
+      read_time: true
+      comments: true
       share: true
       related: true
+      mathjax: true
+      sidebar_main: true
