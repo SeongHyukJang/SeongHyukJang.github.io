@@ -4,7 +4,7 @@ title:  "[Git] Commit Message 작성 규칙"
 categories:
   - Git
 tags:
-  - [Git, Udacity, Git Commit Message Convention]
+  - [Git Commit Message Convention]
 
 toc: true
 toc_sticky: true
