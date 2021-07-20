@@ -4,7 +4,7 @@ title:  "[AWS] Global Infrastructure"
 categories:
   - AWS
 tags:
-  - [Region, Availability Zone, Multi AZs, Edge Location, CloudFront]
+  - [Region, Availability Zone, Multi AZs, Edge Location, AWS CloudFront]
 
 toc: true
 toc_sticky: true
