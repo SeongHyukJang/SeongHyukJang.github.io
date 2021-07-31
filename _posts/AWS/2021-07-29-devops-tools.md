@@ -1,0 +1,42 @@
+- AWS DevOps Tools
+    - Code : AWS CodeCommit
+    - Build : AWS CodeBuild
+    - Test : AWS CodeBuild + Third Party
+    - Deploy : AWS CodeDeploy
+    - Code+Build+Test+Deploy : AWS CodePipeline
+
+- AWS CodePipeline
+    - enable you to model, visualize, and automate the steps required to release your SW
+    - why use? you can:
+        - capture and visualize pipeline, view real-time status, retry failed actions...(GUI?)
+        - automate your release processes, eliminate human error, speed up delivery
+        - establish consistency in the release
+        - incorporate your source, build, and deploy tools
+        - view pipeline history detail
+        - integrate with third-party and AWS tools
+
+- AWS CodeCommit
+    - fully managed source control service that hosts secure git-based repositories
+    - why use? you can:
+        - has no limits in the type or size of files it can store
+        - collaborate with teamates with git command
+        - improve existing workflow by integrating codecommit with other AWS services, IDEs, and third party software
+- AWS CodeBuild
+    - fully managed build service that automatically compiles source code, runs tests, and produces SW packages
+    - why use? you can:
+        - eliminate the need to set up, patch, update, and manage build servers
+        - automatically compile source code, run tests, produce build artifacts
+        - specify build commands to run at each phase
+        - process multiple builds concurrently
+        - can use preconfigured build environments or provide custom build environment
+        - pull source code from codecommit, amazon s3, github, bitbucket
+        - integrate codebuild with jenkins
+- AWS CodeDeploy
+    - fully managed service that automates your software deployments
+    - why use? you can
+        - deploy server, serverless, or container applications
+        - release new features and updates reliably and rapidly
+        - deploy on a variety of compute platforms (ex. AWS Lambda, ECS, EC2, on-prem)
+        - concurrently deploy to one or multiple instances
+        - minimize production downtime for your application
+        - automatically stop an unsuccessful deployment and roll back to previous version
