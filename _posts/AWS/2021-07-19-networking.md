@@ -10,7 +10,7 @@ toc: true
 toc_sticky: true
 
 date: 2021-07-19
-last_modified_at: 2021-07-21
+last_modified_at: 2021-12-27
 ---
 
 
@@ -57,18 +57,13 @@ last_modified_at: 2021-07-21
 <br>
 3. VPN과 Direct Connect 둘 다 이용하는 방식 <br><br> ![image](https://user-images.githubusercontent.com/49023663/126294172-eec39a38-da5c-4837-b760-46ad47247bee.png)
 <br>
-- VPN 연걸은 백업용을 사용하고 DX를 운영 라인으로 사용하여 구성한 경우다.
+- VPN 연결은 백업용을 사용하고 DX를 운영 라인으로 사용하여 구성한 경우다.
 - VPN과 DX의 장점을 모두 사용하기 위해 설계하는 방식이다.
 <br>
 
 > ## Gateway
 
-&nbsp; Gateway는 단어 그대로 관문 역할을 한다. 즉, VPC에 Gateway가 있어야 외부에서 트래픽이 들어올 수 있고 내부에서도 나갈 수 있다.<br> 이러한 역할을 하는 Gateway는 
-&nbsp; Gateway는 VPC 외부에서 들어오는 트래픽을 어떻게 받는지에 따라 종류가 다양하다.
-
-
-&nbsp; VPC와 연결하는 대상은 다양하다. 회사의 IDC와 같은 On-prem이 될 수도 있고, 내가 설계한 또다른 VPC와 연결하려 할 수도 있고, 아얘 다른 Region에 있는 VPC와 연결을 하고 싶을 수도 있다. 
-
+&nbsp; Gateway는 단어 그대로 관문 역할을 한다. 즉, VPC에 Gateway가 있어야 외부에서 트래픽이 들어올 수 있고 내부에서도 나갈 수 있다. VPC 외부에서 들어오는 트래픽을 어떻게 받는지에 따라 종류가 다양하다.
 
 ### Internet Gateway (IGW)
 <br>
@@ -125,7 +120,7 @@ last_modified_at: 2021-07-21
 <br><br>
 ![image](https://user-images.githubusercontent.com/49023663/126412138-837fa53e-3f88-4d66-b303-d78e2fff20ec.png)
 
-<br> 위의 그림을 보면, Public Subnet에 위치한 인스턴스는 IGW를 통해 외부와 통신하고, Private Subneet에 위치한 인스턴스는 외부와 통신하지 않고 Public Subnet에 위치한 인스턴스와 통신할 수 있다.
+<br> 위의 그림을 보면, Public Subnet의 인스턴스는 외부와 통신이 가능하고, Private Subnet의 인스턴스는 불가능하다.
 
 > ## Security
 
