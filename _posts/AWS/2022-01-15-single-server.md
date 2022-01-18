@@ -4,7 +4,7 @@ title: "[AWS] 단일 서버 아키텍처 Part 1"
 categories:
   - AWS
 tags:
-  - [AWS Architecture, Single Server]
+  - [AWS Architecture, Single Server, AWS Route53, AWS VPC, AWS EC2]
 
 toc: true
 toc_sticky: true
@@ -31,7 +31,7 @@ last_modifed_at: 2022-01-18
 
 &nbsp; 우선 VPC를 생성한다. vpc의 이름은 "single-server-vpc"이고, IPv4의 CIDR 블록은 10.0.0.0/16으로 설정한다.
 
-<img src = "single-server-vpc.png">
+<img src = "single-server-vpc.png" width=800>
 
 ---
 
@@ -39,7 +39,7 @@ last_modifed_at: 2022-01-18
 
 &nbsp; VPC의 CIDR블록 이내에 Subnet을 생성한다. 서브넷의 이름은 "single-server-public"으로 정하고, 가용 영역은 ap-northeast-2a를 선택한다. IPv4의 CIDR 블록은 10.0.0.0/24로 설정한다. 이 때, 주의할 점은 생성된 VPC의 CIDR 블록보다 크기가 작아야 한다.
 
-<img src = "single-server-subnet.png">
+<img src = "single-server-subnet.png" width=800>
 
 ---
 
