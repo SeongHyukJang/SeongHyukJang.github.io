@@ -63,7 +63,7 @@ last_modifed_at: 2022-01-18
 
 &nbsp; 생성한 Route Table에 서브넷과 인터넷 게이트웨이를 연결해준다.
 
-<img src = "single-server-rt-subnet-attach.png" width=800 height=500> 
+<img src = "single-server-rt-subnet-attach.png" width=800 height=600> 
 
 <img src = "single-server-rt-igw-attach.png" width=800 height=800>
 
