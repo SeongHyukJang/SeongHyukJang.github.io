@@ -77,7 +77,7 @@ last_modifed_at: 2022-01-18
 
 &nbsp; VPC는 single-server-vpc, 서브넷은 single-server-public을 선택한다.
 
-![image](single-server-ec2-detail.png){: width="100%" height="100%"}
+![single-server-ec2-detail](https://user-images.githubusercontent.com/49023663/150043005-2f9ab12a-09c6-423b-b24d-84f717b94fda.png)
 
 &nbsp; EC2 인스턴스의 이름은 single-server-ec2로 한다.
 
@@ -85,7 +85,7 @@ last_modifed_at: 2022-01-18
 
 &nbsp; EC2의 Security Group을 설정한다. 이름은 single-server-ec2-sg로 정한다. 추가할 요소는 총 세가지다. SSH는 웹 서버의 터미널로 접근하기 위해 추가한다. 이 때, 개발을 진행할 디바이스의 IP만 추가한다. HTTP와 HTTPS는 웹 서버로 사용할 것이기 때문에 추가하고 개방해야하기 때문에 소스는 "위치 무관"으로 설정한다.
 
-![image](single-server-ec2-sg.png){: width="100%" height="100%"}
+![single-server-ec2-sg](https://user-images.githubusercontent.com/49023663/150042975-37e90a94-acdf-4c42-a764-d4d1f002e395.png)
 
 &nbsp; EC2에 SSH 접속할 때 필요한 키를 다운로드하고 저장한다.
 
