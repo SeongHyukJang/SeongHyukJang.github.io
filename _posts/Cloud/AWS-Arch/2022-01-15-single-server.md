@@ -2,7 +2,7 @@
 title: "[AWS] 단일 서버 아키텍처 Part 1"
 
 categories:
-  - AWS
+  - AWS Architecture
 tags:
   - [AWS Architecture, Single Server, AWS Route53, AWS VPC, AWS EC2]
 

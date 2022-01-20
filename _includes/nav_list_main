@@ -21,6 +21,13 @@
             </ul>
             <ul>
                 {% for category in site.categories %}
+                    {% if category[0] == "AWS Architecture" %}
+                        <li><a href="/categories/aws-architecture" class="">AWS 아키텍처 ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+            <ul>
+                {% for category in site.categories %}
                     {% if category[0] == "Terraform" %}
                         <li><a href="/categories/terraform" class="">Terraform ({{category[1].size}})</a></li>
                     {% endif %}
