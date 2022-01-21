@@ -26,7 +26,7 @@ last_modifed_at: 2022-01-21
 
 &nbsp; 아키텍처 구성은 다음과 같다.
 
-![multiple-server](https://user-images.githubusercontent.com/49023663/150454264-69806e75-eb33-40bc-a372-5dfa60405991.png)
+![multiple-server](https://user-images.githubusercontent.com/49023663/150510228-499e3d1c-2475-4622-b859-efc2aa872983.png)
 
 &nbsp; 사용자의 요청은 CloudFront, Internet Gateway, Application Load Balancer, Web Server, RDS 순으로 이동한다.
 
