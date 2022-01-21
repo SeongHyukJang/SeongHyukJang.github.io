@@ -1,5 +1,5 @@
 ---
-title: "[AWS] 단일 서버 아키텍처 Part 1"
+title: "[AWS] 단일 서버 아키텍처"
 
 categories:
   - AWS Architecture
@@ -63,9 +63,9 @@ last_modifed_at: 2022-01-18
 
 &nbsp; 생성한 Route Table에 서브넷과 인터넷 게이트웨이를 연결해준다.
 
-![single-server-rt-subnet-attach](https://user-images.githubusercontent.com/49023663/150041986-f03ce9e1-790d-48e5-a9cf-2ffa2859a05f.png)
+![image](https://user-images.githubusercontent.com/49023663/150469598-2c6d37e2-0205-4940-a74a-4cc646423a9f.png)
 
-![single-server-rt-igw-attach](https://user-images.githubusercontent.com/49023663/150042005-2e4ff49f-8542-4c50-b6ae-e18ba85ce0ec.png)
+![single-server-rt-igw-attach](https://user-images.githubusercontent.com/49023663/150469744-a82420d4-1e7b-4a86-b41e-3bf16907699c.png)
 
 ---
 
