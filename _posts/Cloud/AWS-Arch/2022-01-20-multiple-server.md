@@ -10,7 +10,7 @@ toc: true
 toc_sticky: true
 
 date: 2022-01-20
-last_modifed_at: 2022-01-21
+last_modifed_at: 2022-01-24
 ---
 
 
@@ -140,3 +140,7 @@ last_modifed_at: 2022-01-21
 &nbsp; DB 인스턴스 클래스와 스토리지는 Master와 동일하게 설정한다.
 
 ![multiple-server-db-replica-3](https://user-images.githubusercontent.com/49023663/150509250-9bfccfa5-f8ac-42ec-a79d-822e74088ac4.PNG)
+
+&nbsp; Master와 Slave를 모두 설정 완료하면 아래와 같이 2개의 DB 자원이 생긴다.
+
+![multiple-server-db-result](https://user-images.githubusercontent.com/49023663/150706098-2d330132-a0b1-42d4-9b03-0f624fdb117d.PNG)
