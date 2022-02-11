@@ -28,7 +28,7 @@ last_modifed_at: 2022-02-03
 
 ![multiple-server](https://user-images.githubusercontent.com/49023663/152324314-99711409-cb92-4c46-8a1c-d40aca2c45d6.png)
 
-&nbsp; 사용자의 요청은 CloudFront, Internet Gateway, Application Load Balancer, Web Server, RDS 순으로 이동한다.
+&nbsp; 사용자의 요청은 Internet Gateway, Application Load Balancer, Web Server, RDS 순으로 이동한다.
 
 > ## 구축
 

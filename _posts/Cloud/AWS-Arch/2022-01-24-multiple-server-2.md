@@ -4,7 +4,7 @@ title: "[AWS] 다중 서버 아키텍처 Part 2"
 categories:
   - AWS Architecture
 tags:
-  - [AWS Architecture, High Availability, Fault Tolerance, Disaster Recovery, MySQL, nohup, Launch Template, Auto Scaling Group, Applicaion Load Balancer, ALB, Target Group, AWS CloudFront, CDN]
+  - [AWS Architecture, High Availability, Fault Tolerance, Disaster Recovery, MySQL, nohup, Launch Template, Auto Scaling Group, Applicaion Load Balancer, ALB, Target Group]
 
 toc: true
 toc_sticky: true
@@ -132,11 +132,3 @@ last_modifed_at: 2022-02-03
 &nbsp; 모든 설정을 완료 했다면 ALB의 DNS에 요청을 보내본다. 연결이 잘 되어 있다면 아래와 같이, 테이블에 넣은 정보가 보일 것이다.
 
 ![multiple-server-alb-4](https://user-images.githubusercontent.com/49023663/152166938-7273d8d6-a9e4-4750-8df0-349a541fbac0.PNG)
-
----
-
-### CloudFront 생성
-
-&nbsp; 원본 도메인은 ALB의 DNS를 선택해준다. 그리고 나머지 것들은 기본 상태로 유지한다.
-
-![multiple-server-cdn](https://user-images.githubusercontent.com/49023663/152318680-5a66613a-f69e-44f2-9deb-851896cd80f4.PNG)
