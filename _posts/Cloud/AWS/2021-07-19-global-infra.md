@@ -1,5 +1,5 @@
 ---
-title:  "[AWS] Global Infrastructure"
+title:  "[AWS] AWS의 글로벌 Infra"
 
 categories:
   - AWS
