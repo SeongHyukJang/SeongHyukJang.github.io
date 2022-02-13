@@ -4,7 +4,7 @@ title: "[AWS] 다중 서버 아키텍처 Part 1"
 categories:
   - AWS Architecture
 tags:
-  - [AWS Architecture, High Availability, Fault Tolerance, Disaster Recovery, AWS VPC, AWS EC2, Internet Gateway, NAT Gateway, AWS RDS, Master-Slave, Read Replica]
+  - [AWS Architecture, High Availability, Fault Tolerance, Disaster Recovery, VPC, EC2, Internet Gateway, IGW, NAT Gateway, RDS, Master-Slave, Read Replica]
 
 toc: true
 toc_sticky: true

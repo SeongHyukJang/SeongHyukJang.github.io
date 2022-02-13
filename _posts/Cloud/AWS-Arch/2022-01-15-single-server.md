@@ -4,7 +4,7 @@ title: "[AWS] 단일 서버 아키텍처"
 categories:
   - AWS Architecture
 tags:
-  - [AWS Architecture, Single Server, AWS Route53, AWS VPC, AWS EC2]
+  - [AWS Architecture, Single Server, Route53, VPC, EC2]
 
 toc: true
 toc_sticky: true

@@ -4,7 +4,7 @@ title: "[AWS] DevOps를 위한 서비스"
 categories:
   - AWS
 tags:
-  - [AWS Code Series, AWS CodePipeline, AWS CodeCommit, AWS CodeBuild, AWS CodeDeploy, DevOps]
+  - [Code Series, CodePipeline, CodeCommit, CodeBuild, CodeDeploy, DevOps]
 
 toc: true
 toc_sticky: true

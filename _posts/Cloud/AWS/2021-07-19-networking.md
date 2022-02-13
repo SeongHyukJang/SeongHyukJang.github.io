@@ -4,7 +4,7 @@ title:  "[AWS] 네트워킹 서비스 이해하기"
 categories:
   - AWS
 tags:
-  - [AWS VPC, Internet Gateway, Virtual Private Gateway, Direct Connect Gateway, Transit Gateway, VPN Connect, Direct Connect, AWS DX, AWS Route53, Security Group, Network ACL, Subnet]
+  - [VPC, Internet Gateway, Virtual Private Gateway, Direct Connect Gateway, Transit Gateway, IGW, VGW, DGW, TGW, VPN Connect, Direct Connect, DX, Route53, Security Group, Network ACL, Subnet]
 
 toc: true
 toc_sticky: true
