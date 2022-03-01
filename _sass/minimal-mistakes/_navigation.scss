@@ -200,12 +200,12 @@
       margin-left: 0;
     }
   }
-  
+
   img{
     -webkit-transition: none;
     transition: none;
   }
-
+  
   &__toggle {
     -ms-flex-item-align: center;
     align-self: center;
@@ -440,9 +440,24 @@
 .nav__list .nav__items {
   margin: 0;
   font-size: 1.25rem;
+  font-family: $sans-serif;
+
+  img { // 방문자수 이미지 크기 맞추느라 추가했던 것
+    width: auto; height: auto;
+    max-width: 140px;
+    max-height: 38px;
+    margin-bottom: 1em;
+  }
 
   a {
     color: inherit;
+    font-size: $type-size-3;
+    font-family: $cute;
+    color: #000;
+
+    &:hover {
+      text-decoration: underline;
+    }
   }
 
   .active {
@@ -484,7 +499,7 @@
   margin: 0;
   padding: 0.5rem 0.75rem;
   font-family: $sans-serif-narrow;
-  font-size: $type-size-5;
+  font-size: $type-size-6;
   font-weight: bold;
 }
 
@@ -492,12 +507,12 @@
   display: block;
   margin: 0.5rem 0;
   padding: 0.25rem 0;
-  font-family: $sans-serif-narrow;
-  font-size: $type-size-6;
-  font-weight: bold;
-  text-transform: uppercase;
+  font-size: $type-size-4;
+  font-family: $serif;
+  color: #000;
   border-bottom: 1px solid $border-color;
 }
+
 
 /*
      Table of contents navigation
@@ -514,7 +529,7 @@
 
   .nav__title {
     color: #fff;
-    font-size: $type-size-6;
+    font-size: $type-size-5;
     background: $primary-color;
     border-top-left-radius: $border-radius;
     border-top-right-radius: $border-radius;
@@ -531,10 +546,10 @@
   padding: 0;
   width: 100%;
   list-style: none;
-  font-size: $type-size-6;
+  font-size: $type-size-5;
 
   @include breakpoint($large) {
-    font-size: $type-size-7;
+    font-size: $type-size-6;
   }
 
   a {
