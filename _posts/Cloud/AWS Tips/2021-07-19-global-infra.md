@@ -2,7 +2,7 @@
 title:  "[AWS] AWS의 글로벌 Infra"
 
 categories:
-  - AWS
+  - AWS Tips
 tags:
   - [Region, Availability Zone, Multi AZs, Edge Location, CloudFront]
 

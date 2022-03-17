@@ -1,8 +1,8 @@
 ---
-title:  "[AWS] 모니터링 서비스 이해하기"
+title:  "[AWS] AWS에서 리소스 모니터링 하기"
 
 categories:
-  - AWS
+  - AWS Tips
 tags:
   - [CloudWatch, CloudTrail]
 

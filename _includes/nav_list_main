@@ -13,8 +13,15 @@
         <span class="nav__sub-title">Cloud</span>
             <ul>
                 {% for category in site.categories %}
-                    {% if category[0] == "AWS" %}
-                        <li><a href="/categories/aws" class="">AWS ({{category[1].size}})</a></li>
+                    {% if category[0] == "AWS Service" %}
+                        <li><a href="/categories/aws-service" class="">AWS 서비스({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "AWS Tips" %}
+                        <li><a href="/categories/aws-tips" class="">AWS 팁({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>

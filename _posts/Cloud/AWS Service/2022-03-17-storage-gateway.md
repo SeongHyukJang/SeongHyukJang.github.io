@@ -1,8 +1,8 @@
 ---
-title:  "[AWS] Storage Gateway 개념 및 종류"
+title:  "[AWS] Storage Gateway 이해하기"
 
 categories:
-  - AWS
+  - AWS Service
 tags:
   - [Storage Gateway, File Gateway, Volume Gateway, Tape Gateway]
 

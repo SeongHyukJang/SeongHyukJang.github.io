@@ -1,8 +1,8 @@
 ---
-title: "[AWS] DevOps를 위한 서비스"
+title: "[AWS] AWS에서 DevOps 환경 구축하기"
 
 categories:
-  - AWS
+  - AWS Tips
 tags:
   - [Code Series, CodePipeline, CodeCommit, CodeBuild, CodeDeploy, DevOps]
 

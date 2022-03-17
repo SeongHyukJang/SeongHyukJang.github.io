@@ -1,8 +1,8 @@
 ---
-title:  "[AWS] 네트워킹 서비스 이해하기"
+title:  "[AWS] Cloud 환경에서 네트워크를 구성하는 법"
 
 categories:
-  - AWS
+  - AWS Tips
 tags:
   - [VPC, Internet Gateway, Virtual Private Gateway, Direct Connect Gateway, Transit Gateway, IGW, VGW, DGW, TGW, VPN Connect, Direct Connect, DX, Route53, Security Group, Network ACL, Subnet]
 
@@ -17,7 +17,7 @@ last_modified_at: 2021-12-27
 
 > ## 개요
 
-&nbsp;이 글에서는 AWS에서 제공하는 네트워크 서비스를 알아본다. 대표적으로, Amazon Virtual Private Cloud (Amazon VPC)가 존재한다. 고객은 VPC를 이용하여 네트워크 공간을 프로비저닝하여 자신의 사설망을 구축할 수 있다. 그리고 망 안에 다양한 AWS 인스턴스와 서비스를 사용하여 Cloud Infra를 설계하고 구축할 수 있다.<br>
+&nbsp;이 글에서는 AWS에서 제공하는 네트워크 서비스를 이용하여 네트워크를 구성하는 방법에 대해 알아본다. 대표적으로, Amazon Virtual Private Cloud (Amazon VPC)가 존재한다. 고객은 VPC를 이용하여 네트워크 공간을 프로비저닝하여 자신의 사설망을 구축할 수 있다. 그리고 망 안에 다양한 AWS 인스턴스와 서비스를 사용하여 Cloud Infra를 설계하고 구축할 수 있다.<br>
 &nbsp;Amazon VPC는 가상의 망이기 때문에 몇가지 요소들과 함께 VPC를 구성해야 외부와 통신이 가능하다. 이 글에서는 VPC를 외부와 연결하는 방법과 종류를 소개한다.
 
 > ## VPC를 외부와 연결하는 방식
