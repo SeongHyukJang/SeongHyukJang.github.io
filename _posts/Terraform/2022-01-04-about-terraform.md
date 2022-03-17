@@ -1,5 +1,5 @@
 ---
-title:  "[Terraform] 시작하기"
+title:  "[Terraform] 테라폼이란?"
 
 categories:
   - Terraform
@@ -21,9 +21,7 @@ last_modified_at: 2022-01-04
 
 ### IaC
 
-&nbsp; Terraform에서 HCL을 사용하기 위한 에디터는 따로 정하지 않았다. 자신이 편한 에디터를 사용하면 좋지만, Visual Code에 Hashicorp에서 Terraform을 위한 Extenstion을 만들어 놓았으니 Visual Code를 추천한다. Visual Code에서 Terraform을 이용한다면 아래와 같다.
-
-![image](https://user-images.githubusercontent.com/49023663/148064966-fc8c8cef-3ac8-4479-b406-e36a1d90e7d3.png)
+&nbsp; Terraform에서 HCL을 사용하기 위한 에디터는 따로 정하지 않았다. 자신이 편한 에디터를 사용하면 좋지만, Visual Code에 Hashicorp에서 Terraform을 위한 Extenstion을 만들어 놓았으니 Visual Code를 추천한다.
 
 ### Provider
 
@@ -34,8 +32,6 @@ last_modified_at: 2022-01-04
 ![image](https://user-images.githubusercontent.com/49023663/148066691-e92e89d9-8381-4116-aaeb-7d91ba38e613.png)
 
 > ## Terraform 사용법
-
-&nbsp; 간단하게 Terraform을 사용하는 방법을 설명하자면, <br> <br>
 
 ![image](https://user-images.githubusercontent.com/49023663/148063057-a3ca6fb2-cb66-45e9-809b-afa5de798d06.png)
 
