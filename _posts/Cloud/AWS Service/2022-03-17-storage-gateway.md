@@ -30,6 +30,9 @@ last_modified_at: 2022-03-17
 ### 1. File Gateway
 
 &nbsp; File Gateway는 NFS (Network File System)나 SMB (Server Message Block)와 같은 표준 파일 프로토콜을 사용한다. 이 때, AWS Cloud 환경의 스토리지가 무엇인지에 따라 2가지로 나뉜다.
+<br><br>
+다음과 같은 상황에서 File Gateway를 사용할 수 있다.
+- On-prem측에서 백업 시스템을 NFS를 기반으로 사용하고 있는데, 클라우드 기반 스토리지가 추가로 필요할 때
 
 #### S3 File Gateway
 
@@ -56,11 +59,19 @@ last_modified_at: 2022-03-17
 
 ![image](https://user-images.githubusercontent.com/49023663/158740639-0abb2498-6914-4c62-a1e5-c7923e5e4269.png)
 
+<br><br>
+다음과 같은 상황에서 File Gateway를 사용할 수 있다.
+- On-prem측 시스템에서 짧은 지연 시간으로 전체 데이터 셋에 액세스 해야하는데, 클라우드 기반 스토리지가 추가로 필요할 때
+
 #### Cached Volume Gateway
 
 &nbsp; Volume Gateway를 캐시 스토리지로 활용하고 싶을 때 사용하는 게이트웨이다. 그리고, AWS Cloud 환경의 스토리지가 주 저장소다. 즉, On-prem이 자주 검색하는 정보만 Volume Gateway에 저장한다.
 
 ![image](https://user-images.githubusercontent.com/49023663/158740677-1ce4cbaf-1679-493d-95d2-58461a1477b9.png)
+
+<br><br>
+다음과 같은 상황에서 File Gateway를 사용할 수 있다.
+- On-prem측 시스템에서 짧은 지연 시간으로 특정 데이터 셋에 액세스 해야하는데, 클라우드 기반 스토리지가 추가로 필요할 때
 
 ---
 
@@ -69,3 +80,7 @@ last_modified_at: 2022-03-17
 &nbsp; Tape Gateway는 VTL (Virtual Tape Library) 프로토콜을 사용한다. AWS Cloud 환경에 데이터를 장기적으로 보관해야할 때 주로 사용한다. 그래서 주로 S3 중에서 Glacier류가 쓰인다.
 
 ![image](https://user-images.githubusercontent.com/49023663/158741299-46c12567-4554-4998-a686-6274404d6205.png)
+
+<br><br>
+다음과 같은 상황에서 File Gateway를 사용할 수 있다.
+- On-prem측의 백업 시스템 구성을 테이프 백업을 사용하고 있고 유지하고 싶은 상황에서 클라우드 기반 스토리지가 추가로 필요할 때
